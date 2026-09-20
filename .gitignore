@@ -1,0 +1,10 @@
+# видео не храним в git — ссылки на них в README
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
