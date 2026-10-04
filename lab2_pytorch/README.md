@@ -30,19 +30,8 @@ pip install -r requirements.txt
 
 ## KaiNet (задание 3)
 
-Решение и объяснение неоднозначности порядка — в `task3/03_kainet_reconstruction.ipynb`.
-Для контеста подготовлены `task3/reconstructed_algos.csv` и альтернативный
-`task3/reconstructed_algos_alternative.csv`. Оба точно воспроизводят все выходные матрицы,
-но проверка самих фильтров может требовать один конкретный порядок.
-Повторный запуск: `python3 task3/reconstruct.py` (numpy, scipy, Pillow).
-Исходный [архив задачи A](https://disk.yandex.ru/d/ECLHqVyX-F5hRA) нужно распаковать в `task3/data` (файлы PNG, TXT и `algos.csv` непосредственно в этой папке). Данные не включены в репозиторий. Полный отчёт — `task3/validation.json`.
+Полный код, объяснение и результаты проверок находятся в [`task3/03_kainet_reconstruction.ipynb`](task3/03_kainet_reconstruction.ipynb). Внешние скрипты не нужны.
 
-Основной CSV принят: [посылка №166717004, OK — полное решение](https://contest.yandex.ru/contest/75233/run-report/166717004/), 28 сентября 2026 года.
+[Архив задания](https://disk.yandex.ru/d/ECLHqVyX-F5hRA) нужно распаковать в `task3/data`: PNG, TXT и `algos.csv` непосредственно в этой папке. Данные не включены в репозиторий. Затем выполните все ячейки блокнота по порядку.
 
-## Дополнительная задача B — Operation: EchoTrace fixed
-
-Поиск шести похожих изображений для каждого из 9605 файлов: ResNet-50 + косинусное сходство.
-Код и описание — в `task_b/`, файл для контеста — `task_b/submission.csv`.
-Оценка закрытого контеста пока не получена; прохождение порога 0.5 не подтверждено.
-
-Архив для задачи B: https://disk.yandex.ru/d/Hu-um0ASI6eAUg — изображения распаковать непосредственно в `task_b/data`. Датасеты, веса модели и кэш признаков в репозиторий не включены; порядок загрузки весов указан в `task_b/README.md`.
+Ответ: [`task3/reconstructed_algos.csv`](task3/reconstructed_algos.csv). [Посылка №166717004](https://contest.yandex.ru/contest/75233/run-report/166717004/) принята 28 сентября 2026: **OK — полное решение**.

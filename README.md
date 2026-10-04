@@ -123,4 +123,4 @@ python3 tracker.py sample.mp4 -o sample_result.mp4 --color orange --min-area 200
 
 ## Практическая работа 2 — PyTorch
 
-[Блокноты, результаты и инструкции запуска](lab2_pytorch/README.md): MNIST, FashionMNIST, восстановление свёрток и дополнительная задача поиска похожих изображений.
+[Блокноты, результаты и инструкции запуска](lab2_pytorch/README.md): MNIST, FashionMNIST и восстановление свёрток.
