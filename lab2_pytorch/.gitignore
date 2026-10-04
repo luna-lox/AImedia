@@ -1,0 +1,15 @@
+# датасеты и скачиваемые файлы — не храним в git
+MNIST/
+FashionMNIST/
+datasets/
+*.npy
+image.jpg
+# служебное
+build.py
+run_nb.py
+run*.log
+# Данные и веса для задач контеста
+task3/data/
+task_b/data/
+task_b/weights/
+task_b/features.npz

@@ -1,0 +1,9 @@
+{
+  "images": 9605,
+  "recommendations_per_image": 6,
+  "model": "torchvision ResNet50 IMAGENET1K_V2",
+  "features": 2048,
+  "metric": "cosine similarity",
+  "format_checks": "passed",
+  "contest_score": null
+}
